@@ -28,6 +28,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Theodore Savage</dc:title>
 		<meta property="file-as" refines="#title">Theodore Savage</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Story of the Past or the Future</dc:title>
+		<meta property="file-as" refines="#subtitle">Story of the Past or the Future, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Theodore Savage: A Story of the Past or the Future</dc:title>
+		<meta property="file-as" refines="#fulltitle">Theodore Savage</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Science fiction</dc:subject>
 		<dc:subject id="subject-2">End of the world -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Apocalyptic fiction</dc:subject>
@@ -40,37 +47,41 @@
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008110652</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">A civil servant is reduced to primitive living after a war destroys modern civilization.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Theodore Savage&lt;/i&gt; has a life of ease and refinement, and looks forward to getting married. But there are rumors of war, which hardly seem credible to him. And yet comes, with all the destruction that modern warfare can bring. Human passions combined with scientific advancement result in the total ruin of society. Whole populations are displaced and face starvation as production of all types disappears. Savage longs for a sign of things returning to normal, but will only find others who blame the ruin on man’s meddling with machines and science.&lt;/p&gt;
+			&lt;p&gt;Written shortly after the First World War, with its poison gas, ever more powerful weapons and total devastation, this story projects an even worse future outcome. The theme is that man becomes a slave to the things he creates, and advancement of knowledge will be his downfall. One reviewer found the story lacking in detail and credibility, and thought it too far-fetched that the whole world would descend to a primitive level with no one to carry on the torch of knowledge. Another reviewer questioned author’s view that disaster follows inevitably from scientific knowledge, in an never-ending cycle. From an artistic point of view, it was regarded as imaginitave and clever, but a rather dreary subject for a world just recovering from the recent calamity.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/65848</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/theodoresavagest00hami</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Theodore_Savage</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/cicely-hamilton_theodore-savage</meta>
 		<dc:creator id="author">Cicely Hamilton</dc:creator>
 		<meta property="file-as" refines="#author">Hamilton, Cicely</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Cicely Mary Hamilton</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Cicely_Hamilton</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n81127746</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">J. M. W. Turner</dc:contributor>
+		<meta property="file-as" refines="#artist">Turner, J. M. W.</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Joseph Mallord William Turner</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/J._M._W._Turner</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79060712</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Richard Tonsing</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Tonsing, Richard</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-2">https://pgdp.net</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Jason Livermore</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Livermore, Jason</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/jason-livermore-b854a97</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
