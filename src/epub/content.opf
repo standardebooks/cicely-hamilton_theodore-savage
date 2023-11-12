@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/cicely-hamilton/theodore-savage</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2023-11-12T19:27:44Z</dc:date>
+		<meta property="dcterms:modified">2023-11-12T19:27:44Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -50,14 +50,15 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A civil servant is reduced to primitive living after a war destroys modern civilization.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Theodore Savage&lt;/i&gt; begins with the title character in an office job and an easy life, about to become betrothed. There are rumors of impending war. The crowds are excited, and are sure of their cause. When war comes, Savage is called away from his comfortable life to manage food distribution. Disaster follows as total war is unleashed on the country. As he adapts to a hard new life of man against man, fighting for ever more scarce resources, Savage wonders if he will ever see a return to his old life.&lt;/p&gt;
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/cicely-hamilton"&gt;Cicely Hamilton&lt;/a&gt; wrote this shortly after the First World War, mindful of its poison gas and ever more powerful weapons. She asserts that mankind is destined to become a slave to the things it creates, and advancement of knowledge will be its downfall. One reviewer found the story lacking in detail and credibility, and thought it too far-fetched that the whole world would descend to a primitive level with no one to carry on the torch of knowledge. Another reviewer questioned the author’s thesis that disaster follows inevitably from scientific knowledge, in a never-ending cycle. From an artistic point of view, it was regarded as imaginative and clever, but a rather dreary subject for a world still recovering from the recent calamity.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Theodore Savage&lt;/i&gt; opens with the title character, an office worker enjoying a comfortable life, anticipating his wedding. There are rumors of impending war; the people are excited, sure of their cause. When the war finally begins, Savage is called away to manage food distribution. But disaster soon follows as total war is unleashed on the country. As he adapts to a hard new life of man against man, fighting for ever-more-scarce resources, Savage wonders if he’ll ever return to his old life again.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/cicely-hamilton"&gt;Cicely Hamilton&lt;/a&gt; wrote &lt;i&gt;Theodore Savage&lt;/i&gt; shortly after the First World War, mindful of the terrifying destruction wrought with its poison gas and mechanized weaponry. She asserts that mankind is destined to become a slave to the things it creates, and advancement of knowledge will be its downfall.&lt;/p&gt;
+			&lt;p&gt;One reviewer found the story lacking in detail and credibility, and thought it too far-fetched that the whole world would collapse to a primitive state with no one to carry on the torch of knowledge. Another reviewer questioned the assertion that disaster follows inevitably from scientific knowledge in a never-ending cycle. But from an artistic point of view, the novel was regarded as imaginative and clever, despite its subject matter, which was rather dreary for a world still recovering from the Great War.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/65848</dc:source>
 		<dc:source>https://archive.org/details/theodoresavagest00hami</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">62798</meta>
+		<meta property="se:reading-ease.flesch">60.18</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Theodore_Savage</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/cicely-hamilton_theodore-savage</meta>
 		<dc:creator id="author">Cicely Hamilton</dc:creator>
@@ -88,6 +89,9 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Lukas Bystricky</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Bystricky, Lukas</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
